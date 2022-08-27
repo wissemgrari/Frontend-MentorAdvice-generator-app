@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="stylesheet" href="../public/output.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body class="bg-DarkBlue w-screen h-screen grid place-items-center">
+    <main>
+      <div
+      class="card flex flex-col justify-center items-center w-[calc(100%_-_2rem)] bg-DarkGrayishBlue mx-auto rounded-xl lg:w-[580px] "
+    >
+      <div class="header mt-8 ">
+        <p class="text-NeonGreen text-sm tracking-lg">ADVICE #<span id="advice_id">117</span></p>
+      </div>
+
+      <div class="body my-4 mx-2 text-LightCyan text-center font-extrabold">
+        <q id="advice_msg">
+          It is easy to sit up and take notice, what's difficult is getting up
+          and taking action.
+        </q>
+      </div>
+     
+      <div class="divider text-LightCyan mt-4 mb-8">
+        <img class="lg:hidden" src="../public/images/pattern-divider-mobile.svg" alt="divider">
+        <img
+          class="sm:hidden lg:block" src="../public/images/pattern-divider-desktop.svg"
+          alt="divider"
+        />
+      </div>
+      <button class="w-[60px] h-[60px] flex justify-center items-center bg-NeonGreen rounded-full -mb-[25px]" id="btn">
+        <img src="../public/images/icon-dice.svg" alt="dice" />
+      </button>
+    </div>
+    </main>
+    <footer class="self-end mb-5 text-LightCyan font-light text-center text-[18px]">
+      Challenge by <a class="text-NeonGreen underline ml-1" href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db" target="_blank"> Frontend Mentor</a>. 
+      Coded by <a class="text-NeonGreen underline ml-1" href="https://www.linkedin.com/in/wissem-grari-491a3b1b9/" target="_blank"> Wissem Grari</a>.
+    </footer>
+    </div>
+  </body>
+</html>

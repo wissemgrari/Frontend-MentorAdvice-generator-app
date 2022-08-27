@@ -1,0 +1,10 @@
+{
+  "homepage": "./src/index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
